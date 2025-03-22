@@ -7,7 +7,7 @@ export default function Footer() {
     <footer>
       <div className="mt-16 flex flex-col items-center">
         <div className="mb-3 flex space-x-4">
-          <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
+          SocialIcon kind="mail" href={`mailto:vanha.cv.vn@gmail.com`} size={6} /> 
           <SocialIcon kind="github" href={siteMetadata.github} size={6} />
           <SocialIcon kind="facebook" href="https://www.facebook.com/tranvanha23012006" size={6} />
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />
@@ -15,8 +15,8 @@ export default function Footer() {
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
           <SocialIcon kind="bluesky" href={siteMetadata.bluesky} size={6} />
           <SocialIcon kind="x" href={siteMetadata.x} size={6} />
-          <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
-          <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
+          <SocialIcon kind="instagram" href="https://www.instagram.com/vanha2301/" size={6} />
+          <SocialIcon kind="threads" href="https://www.threads.net/@vanha2301?xmt=AQGzmKUVbCP73n4Lc-qU_6THCjQCWEAQXfE5QLA724XSEos" size={6} />
           <SocialIcon kind="medium" href={siteMetadata.medium} size={6} />
         </div>
         <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
